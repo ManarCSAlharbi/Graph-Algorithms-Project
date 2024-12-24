@@ -1,8 +1,5 @@
 /*
                 CPCS324 - CPCS 324: Algorithms and Data Structures II
-ID: 2206712 | Name: Manar Abdullah Alharbi | Email:  malharbi1414@stu.kau.edu.sa | Section: 03
-ID: 2210455 | Name: Lamar Haitham Fatani   | Email:  lfatani0001@stu.kau.edu.sa  | Section: 03
-ID: 2206375 | Name: Alzahra Abed Alamri    | Email:  aalamri0838@stu.kau.edu.sa  | Section: 03
  ______________________________________________________________________________________________
 Brief Description:
 This program implements three fundamental algorithms in graph theory:
