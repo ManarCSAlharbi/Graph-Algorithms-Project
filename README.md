@@ -1,129 +1,119 @@
-# 🚀 Graph Algorithms Project
+# 🚀 **Graph Algorithms Project**
 
-## 📚 Table of Contents
+## **📚 Table of Contents**
+1. [📜 Overview](#-overview)
+2. [✨ Features](#-features)
+3. [🛠️ How to Run the Project](#️-how-to-run-the-project)
+   - [📋 Prerequisites](#-prerequisites)
+   - [📖 Steps to Run](#-steps-to-run)
+   - [▶️ Execution](#️-execution)
+4. [📁 Input Files](#-input-files)
+   - [📄 `input1.txt`](#-input1txt)
+   - [📄 `input2.txt`](#-input2txt)
+5. [📘 Algorithms in Detail](#-algorithms-in-detail)
+   - [🔹 Prim's Algorithm](#-prims-algorithm)
+   - [🔸 Kruskal's Algorithm](#-kruskals-algorithm)
+   - [🔹 Dijkstra's Algorithm](#-dijkstras-algorithm)
+6. [📂 Files in the Repository](#-files-in-the-repository)
 
-1. 📜 Overview
+---
 
-2. ✨ Features
-
-3. 🛠️ How to Run the Project
-
-- 📋 Prerequisites
-
-- 📖 Steps to Run
-
-- ▶️ Execution
-
-4. 📁 Input Files
-
-- 📄 input1.txt
-
-- 📄 input2.txt
-
-5. 📘 Algorithms in Detail
-
-- 🔹 Prim's Algorithm
-
-- 🔸 Kruskal's Algorithm
-
-- 🔹 Dijkstra's Algorithm
-
-6. 📂 Files in the Repository
-
-## 📜 Overview
+## **📜 Overview**
 
 This project showcases the implementation of three essential graph algorithms:
 
-- 🟢 Prim's Algorithm: Computes the Minimum Spanning Tree (MST) using an unordered minimum-priority queue.
+- 🟢 **Prim's Algorithm**: Computes the Minimum Spanning Tree (MST) using an unordered minimum-priority queue.
+- 🔵 **Kruskal's Algorithm**: Finds the MST using the Union-Find data structure.
+- 🔴 **Dijkstra's Algorithm**: Calculates the shortest paths from a single source vertex using a priority queue.
 
-- 🔵 Kruskal's Algorithm: Finds the MST using the Union-Find data structure.
+📌 **User Interaction**: The program allows users to select an algorithm through a menu and processes graph data stored in external files.
 
-- 🔴 Dijkstra's Algorithm: Calculates the shortest paths from a single source vertex using a priority queue.
+---
 
-### 📌 User Interaction: The program allows users to select an algorithm through a menu and processes graph data stored in external files.
+## **✨ Features**
 
-## ✨ Features
+- 📂 Reads graph data from input files (`input1.txt` and `input2.txt`).
+- 💡 Implements three fundamental algorithms in graph theory.
+- ⏱️ Displays results (edges, weights) and execution times.
+- 📊 Supports undirected and weighted graphs.
 
--  Reads graph data from input files (input1.txt and input2.txt).
+---
 
--  Implements three fundamental algorithms in graph theory.
+## **🛠️ How to Run the Project**
 
--  Displays results (edges, weights) and execution times.
+### **📋 Prerequisites**
 
--  Supports undirected and weighted graphs.
+- ☕ Java Development Kit (JDK) installed.
+- 🖥️ A Java IDE (e.g., IntelliJ, Eclipse) or a terminal.
 
-## 🛠️ How to Run the Project
+### **📖 Steps to Run**
 
-### 📋 Prerequisites
+1. 📥 Clone or download this repository to your local machine.
+2. 📑 Place the input files (`input1.txt`, `input2.txt`) in the same directory as the Java source code.
+3. 🏃 Compile and run the `cpcs324_group10_pt2.java` file.
 
--  Java Development Kit (JDK) installed.
+### **▶️ Execution**
 
--  A Java IDE (e.g., IntelliJ, Eclipse) or a terminal.
+- 📌 When prompted, select the desired algorithm:
+  1️⃣ Prim's Algorithm\
+  2️⃣ Kruskal's Algorithm\
+  3️⃣ Dijkstra's Algorithm
+- 🖊️ Enter any additional input if prompted.
+- 📊 Results (edges, weights, execution time) will be displayed in the console.
 
-### 📖 Steps to Run
+---
 
- 1. Clone or download this repository to your local machine.
+## **📁 Input Files**
 
- 2. Place the input files (input1.txt, input2.txt) in the same directory as the Java source code.
+### 📄 **`input1.txt`**
 
- 3. Compile and run the cpcs324_group10_pt2.java file.
-
-### ▶️ Execution
-
--  When prompted, select the desired algorithm:
-1️⃣ Prim's Algorithm2️⃣ Kruskal's Algorithm3️⃣ Dijkstra's Algorithm
-
-- Enter any additional input if prompted.
-
-- Results (edges, weights, execution time) will be displayed in the console.
-
-## 📁 Input Files
-
-### 📄 input1.txt
-
-Contains graph data for Prim's and Kruskal's algorithms.Format:
+Contains graph data for **Prim's** and **Kruskal's** algorithms.\
+**Format**:
 
 - Number of vertices
-
 - Number of edges
-
-- Edge data: source destination weight
+- Edge data: `source destination weight`
 
 Example:
 
+```
 6
 10
 0 1 3
 0 4 6
 ...
+```
 
-### 📄 input2.txt
+### 📄 **`input2.txt`**
 
-Contains graph data for Dijkstra's algorithm.Format: Same as input1.txt.
+Contains graph data for **Dijkstra's** algorithm.\
+**Format**: Same as `input1.txt`.
 
-## 📘 Algorithms in Detail
+---
 
-### 🔹 Prim's Algorithm
+## **📘 Algorithms in Detail**
+
+### 🔹 **Prim's Algorithm**
 
 Finds the MST by starting from a single vertex and expanding the tree with the smallest edge at each step.
 
-### 🔸 Kruskal's Algorithm
+### 🔸 **Kruskal's Algorithm**
 
 Finds the MST by sorting edges and adding the smallest edge to the tree, avoiding cycles.
 
-### 🔹 Dijkstra's Algorithm
+### 🔹 **Dijkstra's Algorithm**
 
 Finds the shortest paths from a single source to all other vertices using a greedy approach.
 
-## 📂 Files in the Repository
+---
 
-1. 📝 cpcs324_group10_pt2.java: The main Java program implementing the algorithms.
+## **📂 Files in the Repository**
 
-2. 📄 input1.txt: Graph data for Prim's and Kruskal's algorithms.
+1. 📝 **`cpcs324_group10_pt2.java`**: The main Java program implementing the algorithms.
+2. 📄 **`input1.txt`**: Graph data for Prim's and Kruskal's algorithms.
+3. 📄 **`input2.txt`**: Graph data for Dijkstra's algorithm.
 
-3. 📄 input2.txt: Graph data for Dijkstra's algorithm.
+---
 
-
-#### Feel free to enhance or modify this to suit your needs! 😊
-
+Feel free to enhance or modify this to suit your needs! 😊
 
