@@ -15,6 +15,7 @@
    - [🔸 Kruskal's Algorithm](#-kruskals-algorithm)
    - [🔹 Dijkstra's Algorithm](#-dijkstras-algorithm)
 6. [📂 Files in the Repository](#-files-in-the-repository)
+7. [🤝 Contributions](#-Contributions)
 
 ---
 
@@ -114,6 +115,9 @@ Finds the shortest paths from a single source to all other vertices using a gree
 3. 📄 **`input2.txt`**: Graph data for Dijkstra's algorithm.
 
 ---
+## 🤝 Contributions
+
+This project was collaboratively developed by me and my colleague. We worked together to design and implement the system, ensuring its functionality and reliability.
 
 Feel free to enhance or modify this to suit your needs! 😊
 
